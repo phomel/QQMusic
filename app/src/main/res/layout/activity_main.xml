@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_title" />
+
+    <ListView
+        android:id="@+id/list_view_music"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        android:background="@color/gray"/>
+
+    <LinearLayout
+        android:clickable="true"
+        android:onClick="forwardMusicDetailActivity"
+        android:id="@+id/line_bottom_music_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.joy.qqmusic.widget.RoundImageView
+            android:id="@+id/iv_album"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tv_music_title"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/tv_music_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/chk_playing"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/chk_play_or_pause"
+            android:layout_gravity="center_vertical"
+            android:checked="false"
+            android:button="@null"/>
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@mipmap/minibar_btn_playlist_normal"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+</LinearLayout>

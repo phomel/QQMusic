@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_menu_sort_by_time"
+        android:title="@string/txt_sort_by_time"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item_menu_sort_by_name"
+        android:title="@string/txt_sort_by_name"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item_menu_upgade_music_quality"
+        android:title="@string/txt_upgade_music_quality"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item_menu_scan_music"
+        android:title="@string/txt_scan_music"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item_menu_download_by_one_click"
+        android:title="@string/txt_download_by_one_click"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item_menu_local_music_resume_assist"
+        android:title="@string/txt_local_music_resume_assist"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never"/>
+</menu>

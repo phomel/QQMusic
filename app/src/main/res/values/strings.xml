@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QQMusic</string>
+    <string name="txt_local_music">本地歌曲</string>
+    <string name="txt_sort_by_time">按时间排序</string>
+    <string name="txt_sort_by_name">按名称排序</string>
+    <string name="txt_upgade_music_quality">升级音质</string>
+    <string name="txt_scan_music">扫描歌曲</string>
+    <string name="txt_download_by_one_click">一键下载词图</string>
+    <string name="txt_local_music_resume_assist">本地歌曲恢复助手</string>
+    <string name="txt_permission_denied_tip">没有权限访问sd卡 - - </string>
+    <string name="dialog_scan_musics">扫描歌曲中,请稍候</string>
+    <string name="txt_no_music_exist">扫描不到本地歌曲,请确认是否存在本地音乐</string>
+    <string name="toast_error_prev_tip">已经是第一首歌了</string>
+    <string name="toast_error_next_tip">已经是最后一首歌了</string>
+    <string name="txt_lrc_tip">没有歌词</string>
+</resources>
